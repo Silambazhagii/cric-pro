@@ -1,0 +1,249 @@
+body {
+    font-family: 'poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png);
+    background-position: bottom right;
+    background-size: contain;
+    background-size: 1050px 700px;
+    /* overflow: hidden; */
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.main {
+    border: 1px solid black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: right;
+    height: 50px;
+    width: 1370px;
+    /* border: 1px solid black; */
+    margin-top: 35px;
+    /* margin-bottom: 800px; */
+}
+
+.head-text {
+    margin-top: 10px;
+    margin-left: 30px;
+    /* font-weight: lighter; */
+    /* height: 100px; */
+    width: 570px;
+    /* margin-bottom: 100p; */
+    /* border: 1px black solid; */
+
+}
+
+.icc {
+    font-size: 42px;
+    text-shadow: 1px 3px 2px #8d8d8d;
+    /* line- */
+}
+
+.sub-txt {
+    font-size: 22px;
+    color: grey;
+    /* font-weight: 600; */
+}
+
+.icc,
+.sub-txt {
+    line-height: 15px;
+}
+
+
+table {
+    margin-left: 30px;
+    width: 950px;
+    height: 520px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 15px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+table,
+th,
+td {
+    font-size: 18px;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    border-bottom: 1px solid rgb(164, 164, 164);
+}
+
+table,
+td {
+    border-bottom: 1px solid rgb(164, 164, 164);
+}
+
+
+
+
+td {
+    /* padding: -10px; */
+    /* pad */
+    /* padding: 8px 10px; */
+    font-weight: lighter;
+
+}
+
+th {
+    /* font-weight: bold; */
+    background-color: #F05033;
+    color: white;
+    text-align: left;
+}
+
+td,
+th {
+    padding-left: 20px;
+    height: 30px;
+}
+
+
+
+.col2 {
+    width: 380px;
+    /* border: 1px solid black; */
+    padding-left: 50px;
+    /* padding-right: 110px;  */
+    /* margin-left: 10px; */
+    color: grey;
+}
+
+a {
+    /* margin-left: ; */
+    text-decoration: none;
+    color: #59a6ff;
+}
+
+.end {
+    /* border: black 1px solid; */
+    width: 95px;
+    text-align: right;
+    position: relative;
+    /* padding-left: -20px; */
+    right: 30px;
+    /* padding-right: 10px; */
+}
+
+.rr {
+    width: 60px;
+    padding-right: 10px;
+    /* background-color: #59a6ff; */
+}
+
+.footer {
+    font-weight: lighter;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+.low {
+    padding-left: 50px;
+    /* margin-left: 20px; */
+}
+
+.tr2 {
+    font-weight: bold;
+    border-top: none;
+}
+
+.inning {
+    width: 150px;
+    /* border: 1px green solid; */
+
+}
+
+.runs {
+    font-weight: 500;
+}
+
+/* js images*/
+
+
+.sehwag {
+    visibility: hidden;
+    position: absolute;
+    bottom: 175px;
+    left: 60px;
+}
+
+.sachin {
+    visibility: hidden;
+    position: absolute;
+    bottom: 130px;
+    left: 60px;
+}
+
+.gambhir {
+    visibility: hidden;
+    position: absolute;
+    bottom: 80px;
+    left: 60px;
+}
+
+.virat {
+    visibility: hidden;
+    position: absolute;
+    bottom: 35px;
+    left: 60px;
+}
+
+
+.dhoni {
+    visibility: hidden;
+    position: absolute;
+    bottom: -15px;
+    left: 60px;
+}
+
+.yuvraj {
+    visibility: hidden;
+    position: absolute;
+    bottom: -62px;
+    left: 60px;
+}
+
+.suresh {
+    visibility: hidden;
+    position: absolute;
+    bottom: 152px;
+    left: 300px;
+}
+
+.harbhajan {
+    visibility: hidden;
+    position: absolute;
+    bottom: 152px;
+    left: 420px;
+}
+
+.zaheer {
+    visibility: hidden;
+    position: absolute;
+    bottom: 152px;
+    left: 570px;
+}
+
+.munaf {
+    visibility: hidden;
+    position: absolute;
+    bottom: 152px;
+    left: 670px;
+}
+
+.sreesanth {
+    visibility: hidden;
+    position: absolute;
+    bottom: 152px;
+    left: 800px;
+}
